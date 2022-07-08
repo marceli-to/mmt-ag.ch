@@ -1,0 +1,49 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: component/blocks
+ * -----------------------------------------------------------------------------
+ *
+ */
+
+%outer-block,
+.outer-block {
+  max-width: calc(100% - #{$space-md});
+
+  @include bp-sm() {
+    max-width: $outer-max-width;
+  }
+
+  @include bp-md() {
+    max-width: $outer-max-width-sm;
+  }
+}
+
+%inner-block,
+.inner-block {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+
+  @include bp-sm() {
+    padding-left: $space-md;
+    padding-right: $space-md;
+  }
+
+  @include bp-md() {
+    max-width: $inner-max-width;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+%content-element-block,
+.content-element-block {
+  padding-left: $space-md;
+  padding-top: $space-sm;
+
+  @include bp-sm() {
+    max-width: $content-element-max-width;
+    padding-left: 0;
+  }
+}

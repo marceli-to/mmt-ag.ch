@@ -1,0 +1,81 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/header
+ * -----------------------------------------------------------------------------
+ */
+
+header.site-header {
+  @include divider();    
+  background-color: $color-white;
+  height: $header-height;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 400;
+
+  &:after {
+    max-width: calc(100% - #{$space-md});
+    opacity: 1;
+    position: fixed;
+    top: $header-height;
+
+    @include bp-sm() {
+      top: $header-height-sm;
+    }
+  }
+
+  @include bp-sm() {
+    height: $header-height-sm;
+  }
+
+  &.is-home {
+    &:after {
+      max-width: calc(100% - 2 * #{$space-md});
+    }
+  }
+
+  > div {
+    @extend %inner-block;
+    @include bp-sm() {
+      display: flex;
+      justify-content: space-between;
+    }
+    @include bp-md() {
+      padding-right: 0;
+    }
+  }
+}
+
+.has-menu {
+  header.site-header:after {
+    opacity: 0;
+  }
+}
+
+// Page Header
+.page-header {
+  position: relative;
+  top: 115px;
+  width: 100%;
+
+  @include bp-sm() {
+    max-width: calc(100% - 155px);
+    margin-top: $space-sm;
+    padding: 0;
+    top: auto;
+  }
+
+  @include bp-md() {
+    max-width: $outer-max-width-sm;
+  }
+}
+
+.has-menu {
+  .page-header {
+    opacity: 0;
+    //transition: opacity 0s ease-in;
+  }
+}
+
+

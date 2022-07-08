@@ -1,0 +1,28 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: buttons/more
+ * -----------------------------------------------------------------------------
+ */
+
+.btn-more {
+  display: block;
+  position: relative;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:after {
+    @include background-default();
+    background-image: url($url-icons + 'arrow_right.svg');
+    background-size: 24px 15px;
+    background-position: center center;
+    bottom: -25px;
+    content: '';
+    display: block;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    width: 24px;
+  }
+}

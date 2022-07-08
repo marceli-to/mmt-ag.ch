@@ -1,0 +1,29 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: buttons/browse
+ * -----------------------------------------------------------------------------
+ */
+
+.btn-browse {
+  @extend %btn;
+  @include background-default();
+  background-size: auto 12px;
+  height: 16px;
+  width: 9px;
+
+  @include bp-sm() {
+    background-size: auto 18px;
+    height: 19px;
+    width: 10px;
+  }
+
+  &.is-prev {
+    background-image: url($url-icons + 'chevron_left.svg');
+    background-position: center left;
+  }
+
+  &.is-next {
+    background-image: url($url-icons + 'chevron_right.svg');
+    background-position: center right;
+  }
+}

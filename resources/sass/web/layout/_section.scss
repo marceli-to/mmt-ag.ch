@@ -1,0 +1,48 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/section
+ * -----------------------------------------------------------------------------
+ */
+
+%content-section,
+section.content {
+  position: relative;
+  > div {
+    @extend %inner-block;
+  }
+}
+
+section.content-team,
+section.content-contact {
+  @extend %content-section;
+  @include divider();
+  &:last-of-type:after {
+    display: none;
+  }
+}
+
+section.content-team {
+  > div {
+    padding-bottom: $space-md;
+  }
+}
+
+section.content-project-list {
+  @extend %content-section;
+  article {
+    border-bottom: 1px solid $color-black;
+  }
+  &:last-of-type {
+    article {
+      border-bottom: none;
+    }
+  }
+}
+
+section.content-project-detail {
+  @extend %content-section;
+}
+
+section.content-project-slides {
+  padding-top: $space-sm;
+}

@@ -1,0 +1,12 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: component/headings/h1
+ * -----------------------------------------------------------------------------
+ */
+
+h1 {
+  @extend %letter-spacing;
+  @include font-regular();
+  @include font-size($fs-lg);
+  text-align: center;
+}

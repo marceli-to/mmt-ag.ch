@@ -1,0 +1,33 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: buttons/back
+ * -----------------------------------------------------------------------------
+ */
+
+.btn-back {
+  display: block;
+  position: relative;
+  @include background-default();
+  background-image: url($url-icons + 'arrow_left.svg');
+  background-size: 32px 20px;
+  background-position: center center;
+  height: 20px;
+  left: $space-md;
+  opacity: 1;
+  position: absolute;
+  top: 130px;
+  width: 32px;
+
+  @include bp-sm() {
+    left: auto;
+    margin-top: 8px;
+    position: relative;
+    top: auto;
+  }
+}
+
+.has-menu {
+  .btn-back {
+    opacity: 0;
+  }
+}

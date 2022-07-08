@@ -1,0 +1,97 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: views/project
+ * -----------------------------------------------------------------------------
+ */
+
+article.project-list-item {
+  @extend %article-text-media;
+  margin-left: $space-md;
+  padding-bottom: $space-giga;
+  padding-left: 0;
+  width: calc(100% - #{$space-md});
+
+  @include bp-sm() {
+    margin-left: 0;
+    padding-bottom: $space-md;
+    width: 100%;
+  }
+
+  .text-media__image {
+    max-width: 60%;
+    @include bp-sm() {
+      max-width: 100%;
+    }
+  }
+
+  .text-media__body {
+    margin-top: $space-xs;
+    @include bp-sm() {
+      margin-top: 0;
+      padding-top: $space-tiny;
+    }
+  }
+}
+
+article.project-detail {
+  margin-top: $space-sm;
+  padding-left: $space-md;
+  padding-right: $space-md;
+  
+  @include bp-sm() {
+    margin-top: $space-mega;
+    padding-left: 0;
+  }
+
+  h1 {
+    @include font-medium();
+    @include font-size($fs-content-heading);
+    margin-bottom: $space-md;
+    text-align: left;
+
+    @include bp-sm() {
+      @include font-regular();
+      margin-bottom: $space-lg;
+    }
+  }
+
+  p {
+    @include font-regular();
+  }
+
+  .project-detail__item {
+    @include font-regular();
+    margin-bottom: $space-sm;
+
+    span {
+      display: block;
+    }
+
+    @include bp-sm() {
+      margin-bottom: 0;
+      
+      span {
+        display: inline;
+      }
+    }
+  }
+}
+
+article.project-list-item {
+  .project-info {
+    @include font-regular();
+    margin-bottom: $space-sm;
+
+    span {
+      display: block;
+    }
+
+    @include bp-sm() {
+      margin-bottom: 0;
+      
+      span {
+        display: inline;
+      }
+    }
+  }
+}

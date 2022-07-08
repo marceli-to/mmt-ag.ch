@@ -1,0 +1,42 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: component/anchors
+ * -----------------------------------------------------------------------------
+ *
+ */
+
+%anchor,
+.anchor {
+  color: $color-black;
+  text-decoration: none;
+}
+
+.anchor-chevron {
+  @extend %anchor;
+  display: inline-block;
+  padding-left: $space-md;
+  position: relative;
+
+  @include bp-sm() {
+    padding-left: $space-sm;
+  }
+
+  &:before {
+    @include background-default();
+    background-image: url($url-icons + 'chevron_right.svg');
+    background-size: auto 12px;
+    background-position: center left;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 8px;
+
+    @include bp-sm() {
+      background-size: auto 10px;
+      width: 6px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/main
+ * -----------------------------------------------------------------------------
+ */
+
+main.site {
+  opacity: 1;
+  padding-bottom: $space-md;
+  padding-top: $header-height;
+  width: calc(100% - #{$space-md});
+
+  @include bp-sm() {
+    padding-bottom: $space-xl;
+    padding-top: $header-height-sm;
+    width: 100%;
+  }
+
+  &.is-project-detail {
+    width: 100%;
+  }
+
+}
+
+.has-menu {
+  main.site {
+    opacity: 0;
+    //transition: opacity .1s ease-in;
+  }
+}

@@ -1,0 +1,150 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/menu/site
+ * -----------------------------------------------------------------------------
+ */
+
+.site-menu {
+  background-color: $color-white;
+  height: 100%;
+  opacity: 0;
+  padding: $space-md; 
+  pointer-events: none;
+  position: fixed;
+  //transition: opacity 0s ease-out;
+  width: 100%;
+  z-index: -1;
+
+  &.is-visible {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity .2s ease-out;
+    z-index: 500;
+  }
+
+  nav {
+    margin-top: $space-mega;
+
+    ul {
+
+      a {
+        color: $color-black;
+        display: block;
+        @include font-bold();
+        @include font-size($fs-nav-main);
+        padding: $space-sm 0;
+        text-decoration: none;
+
+        &.is-active {
+          padding-bottom: $space-xxs;
+
+          + ul {
+            display: block;
+          }
+        }
+      }
+    }
+
+    ul ul {
+      margin-bottom: $space-xxs;
+      @include bp-sm() {
+        margin-bottom: 0;
+      }
+
+      a {
+        @include font-regular();
+        @include font-size($fs-nav-sub);
+        @extend %letter-spacing;
+        padding: $space-xxs 0;
+      }
+    }
+  }
+}
+
+@include bp-sm() {
+  .site-menu {
+    max-width: calc(100% - 120px);
+    opacity: 1;
+    padding: 0;
+    pointer-events: all;
+    position: relative;
+    width: auto;
+    z-index: 1;
+
+    &.is-visible {
+      opacity: 1;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    nav {
+      margin-top: 0;
+
+      ul {
+        display: flex;
+        
+        li {
+          margin-right: $space-xxl;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+        
+        a {
+          display: inline-block;
+          padding-bottom: 0 !important;
+          padding-top: $space-xl;
+          position: relative;
+          width: auto;
+
+          &:before {
+            background-color: transparent;
+            content: '';
+            height: 2px;
+            left: 0;
+            position: absolute;
+            transition: background-color .1s ease-out, left .1s ease-in;
+            top: 0;
+            width: 100%;
+          }
+
+          &.is-over:before,
+          &.is-active:before,
+          &:hover:before {
+            background-color: $color-black;
+            transition: background-color .1s ease-out;
+          }
+
+          &.is-inactive {
+            &:before {
+              display: none !important;
+            }
+          }
+        }
+      }
+
+      ul ul {
+        display: block;
+        left: 0;
+        min-width: 480px;
+        top: $space-mega;
+        padding-top: $space-mega;
+        position: absolute;
+        width: 100%;
+
+        li {
+          margin-right: 0;
+        }
+
+        a {
+          display: block;
+          padding: 7px 0;
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

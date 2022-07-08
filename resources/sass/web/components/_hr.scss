@@ -1,0 +1,15 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/hr
+ * -----------------------------------------------------------------------------
+ */
+
+%hr,
+.hr,
+hr {
+  @extend %outer-block;
+  background-color: $color-black;
+  border: none;
+  height: 1px;
+  line-height: 1 !important;
+}

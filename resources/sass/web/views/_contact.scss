@@ -1,0 +1,41 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: views/contact
+ * -----------------------------------------------------------------------------
+ */
+
+article.contact {
+  @extend %article-text-media;
+
+  address {
+    @include font-bold();
+    margin-bottom: $space-md;
+    @include bp-sm() {
+      margin-bottom: $space-xl;
+    }
+  }
+}
+
+article.job {
+  @extend %article-text-media;
+  display: block !important;
+}
+
+.imprint {
+  @include font-regular();
+  margin-top: $space-sm;
+  padding-left: $space-md;
+
+  @include bp-sm() {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .text-media {
+    padding-top: $space-xs;
+  }
+
+  h3 {
+    margin-bottom: $space-xs;
+  }
+}

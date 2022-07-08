@@ -1,0 +1,123 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: vendor/swiper/swiper-custom
+ * -----------------------------------------------------------------------------
+ */
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  &.is-landscape {
+    max-width: calc(100% - 40px);
+    @include bp-sm() {
+      max-width: calc(100% - 40px);
+    }
+    @include bp-md() {
+      max-width: calc(#{$inner-max-width} + 1px);
+    }
+  }
+
+  &.is-first {
+    max-width: calc(100% - 40px);
+    @include bp-md() {
+      max-width: calc(#{$inner-max-width} + 1px);
+    }
+  }
+
+  &.is-portrait {
+    max-width: calc(50% - 24px);
+
+    @include bp-sm() {
+      max-width: calc(50% - 28px);
+    }
+
+    @include bp-md() {
+      max-width: calc((#{$inner-max-width}/2) - 8px);
+    }
+  }
+
+  figcaption {
+    display: block;
+    @include font-regular();
+    @include font-size($fs-sm);
+    opacity: 0;
+    padding-top: $space-xs;
+    text-align: center;
+    transition: opacity .1s .16s ease-in;
+  }
+
+  &.is-testimonial {
+    color: $color-blue;
+    display: block;
+    line-height: 1;
+    @include font-bold();
+    max-width: calc(100% - 40px);
+    padding-left: $space-xs;
+    padding-right: $space-sm;
+    text-align: left;
+
+    @include bp-sm() {
+      max-width: calc(50% - 28px);
+      padding-right: $space-xl;
+      padding-left: $space-sm;
+    }
+
+    @include bp-md() {
+      max-width: calc((#{$inner-max-width}/2) - 8px);
+    }
+
+    h2 {
+      @include font-bold();
+      @include font-size($fs-testimonial-lg);
+      line-height: 1.2;
+      margin-bottom: $space-md;
+
+      @include bp-sm() {
+        margin-bottom: $space-xxl;
+      }
+    }
+
+    span {
+      @include font-bold-italic();
+      @include font-size($fs-testimonial-sm);
+      line-height: 1;
+    }
+  }
+}
+
+.swiper-slide-active {
+  figcaption {
+    opacity: 1;
+    transition: opacity .1s .8s ease-in;
+  }
+}
+
+.swiper-slide-active.is-first {
+  figcaption {
+    opacity: 1;
+    transition: opacity 0s 0s ease-in;
+  }
+}
+
+.swiper-btn-next,
+.swiper-btn-prev {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  z-index: 1200;
+}
+
+.swiper-btn-next {
+  right: 0;
+}
+
+.swiper-btn-prev {
+  left: 0;
+} 

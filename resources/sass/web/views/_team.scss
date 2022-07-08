@@ -1,0 +1,106 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: views/team
+ * -----------------------------------------------------------------------------
+ */
+
+article.team {
+  @extend %article-text-media;
+  padding-bottom: 0;
+
+  h2 {
+    @include font-size($fs-content-heading);
+    margin-bottom: $space-xs;
+    @include bp-sm() {
+      margin-bottom: $space-lg;
+    }
+  }
+
+  .text-media__body {
+    p:last-of-type {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+.team-cv {
+  padding-left: $space-md;
+  padding-top: $space-md;
+  @include bp-sm() {
+    padding-left: 0;
+  }
+
+  h3 {
+    @include font-size($fs-content-heading);
+    margin-bottom: $space-md;
+    @include bp-sm() {
+      @include font-regular();
+      margin-bottom: $space-xl;
+    }
+  }
+
+  h4 {
+    @include font-medium-italic();
+    margin-bottom: $space-sm;
+    @include bp-sm() {
+      @include font-medium();
+    }
+  }
+
+  table.cv {
+
+    tr {
+      display: block;
+      margin-bottom: $space-sm;
+    }
+
+    td {
+      display: block;
+    }
+
+    @include bp-sm() {
+      margin-bottom: $space-lg;
+
+      tr {
+        display: table-row;
+        margin-bottom: 0;
+      }
+
+      td {
+        display: table-cell;
+        padding-bottom: 2px;
+        vertical-align: top;
+        &:first-child {
+          width: 125px;
+        }
+      }
+    }
+  }
+}
+
+article.jobs {
+
+  @include bp-sm() {
+    max-width: 600px;
+  }
+
+  h2 {
+    @include font-size($fs-content-heading);
+    margin-bottom: $space-xs;
+    @include bp-sm() {
+      margin-bottom: $space-lg;
+    }
+  }
+}
+
+.jobs__detail {
+  padding-top: $space-lg;
+
+  @include bp-sm() {
+    max-width: 600px;
+  }
+
+  a {
+    color: $color-black;
+  }
+}

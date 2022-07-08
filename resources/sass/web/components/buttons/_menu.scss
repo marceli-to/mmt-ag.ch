@@ -1,0 +1,47 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: buttons/menu
+ * -----------------------------------------------------------------------------
+ */
+
+.btn-menu-show {
+  @include background-default();
+  background-image: url($url-icons + 'burger.svg');
+  background-size: 30px 21px;
+  background-position: center center;
+  display: block;
+  height: 21px;
+  left: $space-md;
+  position: absolute;
+  top: $space-md;
+  width: 30px;
+  z-index: 100;
+
+  @include bp-sm() {
+    display: none !important
+  }
+}
+
+.btn-menu-hide {
+  @include background-default();
+  background-image: url($url-icons + 'cross.svg');
+  background-size: 21px 21px;
+  background-position: center center;
+  display: block;
+  height: 21px;
+  width: 30px;
+
+  @include bp-sm() {
+    display: none !important;
+  }
+}
+
+.has-menu {
+  .btn-menu-show {
+    display: none;
+  }
+
+  .btn-menu-hide {
+    display: block;
+  }
+}

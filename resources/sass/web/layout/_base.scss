@@ -1,0 +1,46 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/base
+ * -----------------------------------------------------------------------------
+ */
+
+html {
+	overflow-y: scroll;
+
+	&.screen-narrow {
+		header.site-header {
+			height: $header-height-narrow !important;
+			transition: height .1s ease-in;
+			&:after {
+				top: $header-height-narrow !important;
+				transition: position .1s ease-in;
+			}
+		}
+		main.site {
+			padding-top: 120px !important;
+		}
+		.site-menu,
+		.logo {
+			display: none;
+		}
+		.btn-back {
+			margin-top: 20px;
+		}
+	}
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: $color-black;
+	@include font-smoothing();
+	@include font-medium();
+	@include font-size($fs-md);
+	position: relative;
+}
+
+// Scrollbars
+@include scrollbar(8px, #ccc);

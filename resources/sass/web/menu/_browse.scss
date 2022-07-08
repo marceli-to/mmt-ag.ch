@@ -1,0 +1,36 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/menu/browse
+ * -----------------------------------------------------------------------------
+ */
+
+.browse {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+  padding: 0 $space-md;
+  position: relative;
+  //transition: opacity .1s ease-in;
+  top: 125px;
+  width: 100%;
+
+  @include bp-sm() {
+    max-width: calc(100% - 155px);
+    //margin-top: $space-sm;
+    padding: 0;
+    top: auto;
+  }
+
+  @include bp-md() {
+    max-width: $outer-max-width-sm;
+  }
+}
+
+.has-menu {
+  nav.browse {
+    opacity: 0;
+    //transition: opacity 0s ease-in;
+  }
+}
+

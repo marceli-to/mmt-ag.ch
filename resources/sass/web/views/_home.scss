@@ -1,0 +1,88 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: views/home
+ * -----------------------------------------------------------------------------
+ */
+
+.visual {
+  @extend %outer-block;
+
+  figure {
+    position: relative;
+  }
+
+  .quote {
+    margin: $space-md $space-md 0 $space-md;
+  
+    @include bp-sm() {
+      max-width: 280px;
+      margin: 0;
+      right: -90px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    @include bp-md() {
+      max-width: 480px;
+      right: -150px;
+    }
+  
+    .quote__text {
+      @extend %letter-spacing;
+      @include font-bold();
+      @include font-size($fs-quote);
+      quotes: "«" "»" "‹" "›";
+      position: relative;
+  
+      &:before {
+        content: open-quote;
+      }
+  
+      &:after {
+        content: close-quote;
+      }
+    }
+  
+    .quote__author {
+      @extend %letter-spacing;
+      @include font-size($fs-quote-author);
+      margin-top: $space-xxs;
+  
+      @include bp-sm() {
+        @include font-medium();
+      }
+    }
+  }
+}
+
+footer {
+  address {
+    display: none;
+    
+    @include bp-sm() {
+      display: block;
+      margin-top: 100px;
+      padding-left: $space-md;
+    }
+  
+    > div {
+      @extend %inner-block;
+    }
+  
+    p {
+      margin-bottom: $space-md;
+    }
+  
+    a {
+      color: $color-black;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+}
+
+
+

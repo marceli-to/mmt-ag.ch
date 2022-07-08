@@ -1,0 +1,62 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: config/global
+ * -----------------------------------------------------------------------------
+ *
+ * Global settings and variables
+ *
+ */
+
+ 
+/* Box shadows
+ * -------------------- */
+
+$box-shadow: 0 4px 6px rgba(100, 100, 100, 0.3);
+
+/* Default easing
+ * -------------------- */
+
+$easing: cubic-bezier(0.980, 0.310, 0.940, 0.840);
+
+/* Urls
+ * -------------------- */
+
+$url-images: '../img/';
+$url-icons:  '../img/icons/';
+
+
+/* Breakpoints
+ * -------------------- */
+
+$bp-xs:    500px;
+$bp-sm:    768px;
+$bp-md:   1140px;
+$bp-lg:   1340px;
+
+$breakpoints: (
+  sm: $bp-sm,
+  md: $bp-md,
+  lg: $bp-lg,
+);
+
+/* Element dimensions
+ * -------------------- */
+
+// Header
+$header-height:        170px;
+$header-height-sm:     210px;
+$header-height-narrow: 60px;
+
+// Maximum width for inner block
+$inner-max-width: 1100px;
+
+// Maximum width for outer block
+$outer-max-width: calc(100% - 175px) !important;
+$outer-max-width-sm: calc(((100% + #{$inner-max-width})/2) - 175px) !important;
+
+// Maximum width for content elements
+$content-element-max-width: 600px;
+
+
+ 
+ 
