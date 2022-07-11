@@ -6,10 +6,10 @@
 @endsection
 @section('content')
 <x-slider>
+  <x-slider-image image="mmt_tramaussenwaschanlage_vbz_4.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-first is-landscape" />
   <x-slider-image image="mmt_tramaussenwaschanlage_vbz_1.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
   <x-slider-image image="mmt_tramaussenwaschanlage_vbz_2_zitat.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_tramaussenwaschanlage_vbz_3.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
-  <x-slider-image image="mmt_tramaussenwaschanlage_vbz_4.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_tramaussenwaschanlage_vbz_5.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_tramaussenwaschanlage_vbz_6.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_tramaussenwaschanlage_vbz_7_zitat.jpg"" classes="is-portrait" />

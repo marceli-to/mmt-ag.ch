@@ -9,7 +9,7 @@
   <x-slider-image image="mmt_Keller_Diamant_1_vorschau.jpg" caption="Visualisierung:|Strut Architekten AG, Winterthur" classes="is-first is-landscape" />
 </x-slider>
 <x-project>
-  <x-heading title="Neubau Diamant Keller AG<br>Winterthur (2021–2025)" />
+  <x-heading title="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2025)" />
   <p>
     <x-info archive="false" label="Bauherrschaft" description="Keller Druckmesstechnik AG, Winterthur" />
     <x-info archive="false" label="Generalplaner" description="GP Generalplaner AG, Zürichh" />

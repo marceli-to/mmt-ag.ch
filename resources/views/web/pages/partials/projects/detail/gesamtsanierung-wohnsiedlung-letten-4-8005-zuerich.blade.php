@@ -6,11 +6,11 @@
 @endsection
 @section('content')
 <x-slider>
-  <x-slider-image image="mmt_letten_4_zuerich_1.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-first is-portrait" />
+  <x-slider-image image="mmt_letten_4_zuerich_5.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_letten_4_zuerich_1.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
   <x-slider-image image="mmt_letten_4_zuerich_2.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_letten_4_zuerich_3.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_letten_4_zuerich_4.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
-  <x-slider-image image="mmt_letten_4_zuerich_5.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_letten_4_zuerich_6.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_letten_4_zuerich_7.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_letten_4_zuerich_8.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
