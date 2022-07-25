@@ -22,7 +22,8 @@
         <h3>Lebenslauf</h3>
         <h4>Berufliche Tätigkeit</h4>
         <table class="cv">
-          <tr><td>2020&thinsp;–&thinsp;Heute</td><td>Bauleiter in Ausbildung bei MMT AG Bauleiter und Architekten, Zürich</td></tr>
+          <tr><td>2022&thinsp;–&thinsp;Heute</td><td>Bauleiter bei MMT AG Bauleiter und Architekten, Zürich</td></tr>
+          <tr><td>2020&thinsp;–&thinsp;2022</td><td>Bauleiter in Ausbildung bei MMT AG Bauleiter und Architekten, Zürich</td></tr>
           <tr><td>2019&thinsp;–&thinsp;2020</td><td>Weltreise (Skilehrer, Surfboard Shaper)</td></tr>
           <tr><td>2018&thinsp;–&thinsp;2018</td><td>Zeichner Architektur bei baumann roserens architekten ag, Zürich</td></tr>
           <tr><td>2015&thinsp;–&thinsp;2018</td><td>Lehre als Zeichner EFZ Architektur bei baumann roserens architekten ag, Zürich</td></tr>

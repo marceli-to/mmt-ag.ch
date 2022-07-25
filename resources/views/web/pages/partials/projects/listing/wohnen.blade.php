@@ -9,18 +9,19 @@
   />
 @endsection
 @section('content')  
+<x-preview 
+slug="neubau-wohnuberbauung-schulsteig-kilchberg" 
+image="mmt_schulsteig_kilchberg_1.jpg" 
+text="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2024)" 
+alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2024)"
+/>
   <x-preview 
     slug="sanierung-und-umbau-altes-bauamt-untere-reppischstrasse-dietikon" 
     image="mmt_bauamt_dietikon_01.jpg" 
-    text="Sanierung und Umbau „altes Bauamt“, Untere Reppischstrasse<br>Dietikon (2022–2023)" 
-    alt="Sanierung und Umbau „altes Bauamt“, Untere Reppischstrasse, Dietikon (2022–2023)"
+    text="Sanierung und Umbau «altes Bauamt», Untere Reppischstrasse<br>Dietikon (2022–2023)" 
+    alt="Sanierung und Umbau «altes Bauamt», Untere Reppischstrasse, Dietikon (2022–2023)"
   />
-  <x-preview 
-    slug="neubau-wohnuberbauung-schulsteig-kilchberg" 
-    image="mmt_schulsteig_kilchberg_1.jpg" 
-    text="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2024)" 
-    alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2024)"
-  />
+
   <x-preview 
     slug="sanierung-schwangengasse-zurich" 
     image="mmt_schwanengasse_vorschau.jpg" 
