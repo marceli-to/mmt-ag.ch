@@ -8,6 +8,7 @@
 <x-slider>
   <x-slider-image image="mmt_salzhaus_bonstetten_1.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-first is-landscape" />
   <x-slider-image image="mmt_salzhaus_bonstetten_2.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_salzhaus_bonstetten_12a.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_salzhaus_bonstetten_3.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-portrait" />
   <x-slider-image image="mmt_salzhaus_bonstetten_4_zitat.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_salzhaus_bonstetten_5.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-landscape" />
@@ -17,6 +18,8 @@
   <x-slider-image image="mmt_salzhaus_bonstetten_9.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-portrait" />
   <x-slider-image image="mmt_salzhaus_bonstetten_10_zitat.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_salzhaus_bonstetten_11.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_salzhaus_bonstetten_13a.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_salzhaus_bonstetten_14.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_salzhaus_bonstetten_12.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-portrait" />
   <x-slider-image image="mmt_salzhaus_bonstetten_13.jpg" caption="Fotografie:|Fotografie: Jürg Zimmermann, Zürich" classes="is-portrait" />
 </x-slider>

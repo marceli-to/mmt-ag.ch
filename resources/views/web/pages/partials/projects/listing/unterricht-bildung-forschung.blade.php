@@ -9,6 +9,15 @@
   />
 @endsection
 @section('content')
+
+  <x-preview 
+    slug="umbau-schulhaus-romerstrasse-winterthur" 
+    image="mmt_schulhaus_roemerstrasse_01.jpg" 
+    text="Umbau Schulhaus Römerstrasse<br>Winterthur (2022–2023)" 
+    alt="Umbau Schulhaus Römerstrasse, Winterthur (2022–2023)"
+  />
+
+
   <x-preview 
     slug="sanierung-schulhaus-bachtelstrasse-winterthur" 
     image="mmt_schulhaus_bachtelstrasse_3_vorschau.jpg" 

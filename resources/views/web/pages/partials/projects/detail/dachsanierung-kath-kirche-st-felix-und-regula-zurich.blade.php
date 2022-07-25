@@ -20,7 +20,7 @@
 <x-project>
   <x-heading title="Dachsanierung  Kath. Kirche St. Felix und Regula<br>Zürich (2021–2022)" />
   <p>
-    <x-info archive="false" label="Bauherrschaft" description="Kirchenpflege Kath. Kirche St. Felix und Regula Baukommission, Zürich" />
+    <x-info archive="false" label="Bauherrschaft" description="Kirchenpflege Kath. Kirche St. Felix und Regula, Zürich" />
     <x-info archive="false" label="Architekt" description="Architektur 10:8 Architekten GmbH, Zürich" />
     <x-info archive="false" label="Bauleitung" description="MMT AG Bauleiter und Architekten, Zürich" />
     <x-info archive="false" label="Baukosten" description="1 Mio." />

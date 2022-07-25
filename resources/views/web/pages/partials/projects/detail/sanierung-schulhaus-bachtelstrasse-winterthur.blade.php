@@ -7,10 +7,13 @@
 @section('content')
 <x-slider>
   <x-slider-image image="mmt_schulhaus_bachtelstrasse_1.jpg" caption="Fotografie:|Architekt Rudolf Mooser, Zürich" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_schulhaus_bachtelstrasse_7.jpg" caption="Fotografie:|Pascal Mooser, MMT" classes="is-landscape" />
   <x-slider-image image="mmt_schulhaus_bachtelstrasse_2.jpg" caption="Fotografie:|Architekt Rudolf Mooser, Zürich" classes="is-portrait" />
   <x-slider-image image="mmt_schulhaus_bachtelstrasse_3.jpg" caption="Fotografie:|Architekt Rudolf Mooser, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_schulhaus_bachtelstrasse_4_zitat.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_schulhaus_bachtelstrasse_5.jpg" caption="Fotografie:|Architekt Rudolf Mooser, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_bachtelstrasse_8.jpg" caption="Fotografie:|Pascal Mooser, MMT" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_bachtelstrasse_9.jpg" caption="Fotografie:|Pascal Mooser, MMT" classes="is-portrait" />
   <x-slider-image image="mmt_schulhaus_bachtelstrasse_6.jpg" caption="Fotografie:|Architekt Rudolf Mooser, Zürich" classes="is-landscape" />
 </x-slider>
 <x-project>

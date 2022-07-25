@@ -7,7 +7,7 @@
         <div class="text-media__body">
             <h2>Florian Sager</h2>
             <p>
-              Zeichner EFZ Architektur<br>Zimmermann EFZ<br>Bauleiter in Ausbildung
+              Zeichner EFZ Architektur<br>Zimmermann EFZ<br>Bauleiter
             </p>
             <p>
               T 052 235 08 80<br>
