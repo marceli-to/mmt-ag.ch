@@ -8,19 +8,21 @@
     next="handel-und-verwaltung"
   />
 @endsection
-@section('content')
-  <x-preview 
-    slug="sanierung-und-neunutzung-reithalle-st-moritz" 
-    image="mmt_reithalle_st_moritz_1_vorschau.jpg" 
-    text="Sanierung und Neunutzung Reithalle<br>St. Moritz (2021–2025)" 
-    alt="Sanierung und Neunutzung Reithalle St. Moritz (2021–2025)"
-  />
+@section('content')  
   <x-preview 
     slug="neubau-diamant-keller-ag-winterthur" 
     image="mmt_Keller_Diamant_1_vorschau.jpg" 
     text="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2025)" 
     alt="Neubau Keller Druckmesstechnik AG, Winterthur (2021–2025)"
   />
+  
+  <x-preview 
+    slug="sanierung-und-neunutzung-reithalle-st-moritz" 
+    image="mmt_reithalle_st_moritz_1_vorschau.jpg" 
+    text="Sanierung und Neunutzung Reithalle<br>St. Moritz (2021–2025)" 
+    alt="Sanierung und Neunutzung Reithalle St. Moritz (2021–2025)"
+  />
+
   <x-preview 
     slug="bueroausbau-4og-wintower-8400-winterthur" 
     image="mmt_bueroausbau_wintower_winterthur_vorschau.jpg" 
