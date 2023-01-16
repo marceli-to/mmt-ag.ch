@@ -15,6 +15,7 @@
 @include('web.pages.partials.team.buser')
 @include('web.pages.partials.team.huber')
 @include('web.pages.partials.team.sager')
+@include('web.pages.partials.team.misteli')
 @include('web.pages.partials.team.steiger')
 @include('web.pages.partials.team.vogler')
 @include('web.pages.partials.team.werder')

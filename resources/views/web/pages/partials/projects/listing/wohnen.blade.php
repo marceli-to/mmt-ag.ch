@@ -22,12 +22,12 @@ alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2024)"
     alt="Sanierung und Umbau «altes Bauamt», Untere Reppischstrasse, Dietikon (2022–2023)"
   />
 
-  <x-preview 
+  {{-- <x-preview 
     slug="sanierung-schwangengasse-zurich" 
     image="mmt_schwanengasse_vorschau.jpg" 
     text="Sanierung Schwangengasse<br>Zürich (2021–2022)" 
     alt="Sanierung Schwangengasse, Zürich (2021–2022)"
-  />
+  /> --}}
   <x-preview 
     slug="umbau-salzhaus-bonstetten" 
     image="mmt_salzhaus_bonstetten_5.jpg" 

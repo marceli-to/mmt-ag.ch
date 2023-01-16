@@ -10,7 +10,7 @@
             CAS in Projektmanagement Bau<br>Architekt FH<br>Bauleiter
           </p>
           <p>
-            T 052 235 08 87<br>
+            T 052 235 08 80<br>
             M 079 686 57 56<br>
             <a href="mailto:herbert.buser@mmt-ag.ch">herbert.buser@mmt-ag.ch</a>
           </p>

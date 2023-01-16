@@ -27,7 +27,7 @@
           <tr><td>2014&thinsp;–&thinsp;2017</td><td>Familienmanagement</td></tr>
           <tr><td>2011&thinsp;–&thinsp;2014</td><td>Projektsekretärin / Sachbearbeiterin bei Quartos Baumanagement AG, Au</td></tr>
           <tr><td>2010&thinsp;–&thinsp;2011</td><td>Praktikum als Projektsekretärin bei Quadras Baumanagement AG, Horgen</td></tr>
-          <tr><td>2008&thinsp;–&thinsp;2011</td><td>Ausbildung zur Kauffrau mit Bürofachdiplom VHS, HSO Schulen Zürich AG, Zürich</td></tr>
+          <tr><td>2008&thinsp;–&thinsp;2011</td><td>Ausbildung zur Kauffrau mit Bürofachdiplom VSH, HSO Schulen Zürich AG, Zürich</td></tr>
           <tr><td>1991</td><td>geboren in Uznach</td></tr>
         </table>
       </div>

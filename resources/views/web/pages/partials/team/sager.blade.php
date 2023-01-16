@@ -11,6 +11,7 @@
             </p>
             <p>
               T 052 235 08 80<br>
+              M 079 481 16 05<br>
               <a href="mailto:florian.sager@mmt-ag.ch">florian.sager@mmt-ag.ch</a>
             </p>
             <div class="btn-wrapper">
