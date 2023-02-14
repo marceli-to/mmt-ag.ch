@@ -5,7 +5,7 @@
           <img src="/assets/media/team/mmt_team_huber_christian.jpg" width="1076" height="720" class="is-responsive" alt="Christan Huber">
         </figure>
         <div class="text-media__body">
-            <h2>Christan Huber</h2>
+            <h2>Christian Huber</h2>
             <p>
               Architekt
             </p>
