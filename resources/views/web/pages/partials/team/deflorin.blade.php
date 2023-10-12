@@ -10,7 +10,7 @@
               Eidg. dipl. Bauleiterin Hochbau<br>Projekt- und Bauleiterin
             </p>
             <p>
-              T 052 235 08 85<br>
+              T 052 235 08 80<br>
               M 079 675 30 40<br>
               <a href="mailto:sue.deflorin@mmt-ag.ch">sue.deflorin@mmt-ag.ch</a>
             </p>
