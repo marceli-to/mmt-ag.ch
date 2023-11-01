@@ -20,5 +20,13 @@
   {{-- <p>
     <a href="/assets/downloads/mmt_schulhaus_bachtelstrasse_referenzblatt.pdf" target="_blank" class="anchor-chevron">PDF</a>
   </p> --}}
+  <p>
+    <a href="javascript:;" class="anchor-chevron" data-toggle-video>Zeitraffer-Video</a>
+  </p>
+  <div class="project-video__container is-hidden" data-video>
+    <video controls>
+      <source src="/storage/mmt_keller_diamant_zeitraffer.mp4" type="video/mp4">
+    </video>
+  </div>
 </x-project>
 @endsection

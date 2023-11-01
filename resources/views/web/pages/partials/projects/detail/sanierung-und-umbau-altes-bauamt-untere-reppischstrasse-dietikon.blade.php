@@ -6,7 +6,17 @@
 @endsection
 @section('content')
 <x-slider>
-  <x-slider-image image="mmt_bauamt_dietikon_01.jpg" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_bauamt_dietikon_01.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_bauamt_dietikon_02.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_bauamt_dietikon_03.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_bauamt_dietikon_04.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_bauamt_dietikon_05.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_bauamt_dietikon_06.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_bauamt_dietikon_07.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_bauamt_dietikon_08.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_bauamt_dietikon_09.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_bauamt_dietikon_10.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_bauamt_dietikon_11.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
 </x-slider>
 <x-project>
   <x-heading title="Sanierung und Umbau «altes Bauamt», Untere Reppischstrasse<br>Dietikon (2022–2023)" />

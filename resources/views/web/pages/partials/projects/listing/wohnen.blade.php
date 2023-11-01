@@ -12,8 +12,8 @@
 <x-preview 
 slug="neubau-wohnuberbauung-schulsteig-kilchberg" 
 image="mmt_schulsteig_kilchberg_1.jpg" 
-text="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2024)" 
-alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2024)"
+text="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2025)" 
+alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2025)"
 />
   <x-preview 
     slug="sanierung-und-umbau-altes-bauamt-untere-reppischstrasse-dietikon" 

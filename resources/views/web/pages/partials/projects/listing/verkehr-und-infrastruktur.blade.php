@@ -11,7 +11,7 @@
 @section('content')
 <x-preview 
   slug="bahnhof-schlieren-umgebung-neubau-pavillon-schlieren" 
-  image="mmt_bahnhof_schlieren_vorschau.jpg" 
+  image="mmt_bahnhof_schlieren_01.jpg" 
   text="Bahnhof Schlieren, Umgebung & Neubau Pavillon<br>Schlieren (2021–2023)" 
   alt="Bahnhof Schlieren, Umgebung & Neubau Pavillon, Schlieren (2021–2023)"
 />

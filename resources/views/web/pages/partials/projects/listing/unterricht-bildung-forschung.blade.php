@@ -11,12 +11,18 @@
 @section('content')
 
   <x-preview 
+    slug="umbau-schulhaus-talackerstrasse-winterthur" 
+    image="mmt_schulhaus_talackerstrasse_08.jpg" 
+    text="Umbau Schulhaus Talackerstrasse<br>Winterthur (2023)" 
+    alt="Umbau Schulhaus Talackerstrasse, Winterthur (2023)"
+  />
+
+  <x-preview 
     slug="umbau-schulhaus-romerstrasse-winterthur" 
-    image="mmt_schulhaus_roemerstrasse_01.jpg" 
+    image="mmt_schulhaus_roemerstrasse_02.jpg" 
     text="Umbau Schulhaus Römerstrasse<br>Winterthur (2022–2023)" 
     alt="Umbau Schulhaus Römerstrasse, Winterthur (2022–2023)"
   />
-
 
   <x-preview 
     slug="sanierung-schulhaus-bachtelstrasse-winterthur" 

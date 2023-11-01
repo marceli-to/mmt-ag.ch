@@ -6,7 +6,12 @@
 @endsection
 @section('content')
 <x-slider>
-  <x-slider-image image="mmt_bahnhof_schlieren_vorschau.jpg" caption="Visualisierung:|Baumann Roserens Architekten AG, Zürich" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_bahnhof_schlieren_01.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_bahnhof_schlieren_02.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_bahnhof_schlieren_03.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_bahnhof_schlieren_04.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_bahnhof_schlieren_05.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_bahnhof_schlieren_06.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
 </x-slider>
 <x-project>
   <x-heading title="Bahnhof Schlieren, Umgebung & Neubau Pavillon<br>Schlieren (2021–2023)" />

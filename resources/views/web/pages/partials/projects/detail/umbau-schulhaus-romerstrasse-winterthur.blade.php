@@ -7,6 +7,13 @@
 @section('content')
 <x-slider>
   <x-slider-image image="mmt_schulhaus_roemerstrasse_01.jpg" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_02.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_03.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_04.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_05.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_06.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_07.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_08.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
 </x-slider>
 <x-project>
   <x-heading title="Umbau Schulhaus Römerstrasse<br>Winterthur (2022–2023)" />
