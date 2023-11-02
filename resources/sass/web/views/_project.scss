@@ -30,6 +30,10 @@ article.project-list-item {
       margin-top: 0;
       padding-top: $space-tiny;
     }
+
+    em {
+      @include font-regular();
+    }
   }
 }
 

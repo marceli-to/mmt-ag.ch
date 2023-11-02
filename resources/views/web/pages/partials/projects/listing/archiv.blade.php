@@ -9,6 +9,25 @@
   />
 @endsection
 @section('content')
+
+<section class="content-project-list">
+  <div>
+    <article class="text-media project-list-item">
+      <figure class="text-media__image">
+        <img src="/assets/media/mmt_reithalle_st_moritz_1_vorschau.jpg" class="is-responsive" alt="Sanierung und Neunutzung Reithalle St. Moritz" width="1000" height="672">
+      </figure>
+      <div class="text-media__body">
+        <p>Sanierung und Neunutzung Reithalle<br>St. Moritz (2021–2025)</p>
+        <div>
+          <x-info archive="true" label="Bauherrschaft" description="Gemeinde St. Moritz" />
+          <x-info archive="true" label="Architekt" description="stehrenberger architektur mit horisberger wagen, Zürich" />
+          <div class="font-regular"><em>Ausführungskredit abgelehnt am 27.11.2022</em></div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
 <section class="content-project-list">
   <div>
     <article class="text-media project-list-item">
@@ -60,7 +79,6 @@
     </article>
   </div>
 </section>
-
 <section class="content-project-list">
   <div>
     <article class="text-media project-list-item">

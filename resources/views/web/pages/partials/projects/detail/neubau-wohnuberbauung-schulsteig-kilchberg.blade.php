@@ -15,7 +15,7 @@
   <x-slider-image image="mmt_schulsteig_kilchberg_7.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
 </x-slider>
 <x-project>
-  <x-heading title="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2024)" />
+  <x-heading title="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2025)" />
   <p>
     <x-info archive="false" label="Bauherrschaft" description="3A Immobilien" />
     <x-info archive="false" label="Architekt" description="felberfendt Architekten GmbH, Zürich" />
