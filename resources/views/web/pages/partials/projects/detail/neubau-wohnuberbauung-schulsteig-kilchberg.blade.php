@@ -22,8 +22,8 @@
     <x-info archive="false" label="Bauleitung" description="MMT AG Bauleiter und Architekten, Zürich" />
     <x-info archive="false" label="Baukosten" description="12 Mio." />
   </p>
-  {{-- <p>
-    <a href="/assets/downloads/mmt_salzhaus_bonstetten_referenzblatt.pdf" target="_blank" class="anchor-chevron">PDF</a>
-  </p> --}}
+  <p>
+    <a href="/assets/downloads/MMT0036_WO_Schulsteig_Kilchberg.pdf" target="_blank" class="anchor-chevron">PDF</a>
+  </p>
 </x-project>
 @endsection

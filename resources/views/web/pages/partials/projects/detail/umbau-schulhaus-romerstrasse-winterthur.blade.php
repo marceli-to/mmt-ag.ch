@@ -23,5 +23,8 @@
     <x-info archive="false" label="Bauleitung" description="MMT AG Bauleiter und Architekten, Zürich" />
     <x-info archive="false" label="Baukosten" description="4.5 Mio." />
   </p>
+  <p>
+    <a href="/assets/downloads/MMT0037_UBF_Schulhaus_Roemerstrasse.pdf" target="_blank" class="anchor-chevron">PDF</a>
+  </p>
 </x-project>
 @endsection
