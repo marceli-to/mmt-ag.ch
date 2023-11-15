@@ -8,7 +8,7 @@
 <x-slider>
   <x-slider-image image="mmt_Keller_Diamant_1.jpg" classes="is-first is-landscape" />
   <x-slider-image image="mmt_Keller_Diamant_2.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
-  <x-slider-image image="mmt_Keller_Diamant_3.jpg" classes="is-landscape" />
+  <x-slider-image image="mmt_Keller_Diamant_3.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_Keller_Diamant_4.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_Keller_Diamant_5.jpg" classes="is-landscape" />
   <x-slider-image image="mmt_Keller_Diamant_6.jpg" classes="is-landscape" />
