@@ -17,7 +17,7 @@
   <x-heading title="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2025)" />
   <p>
     <x-info archive="false" label="Bauherrschaft" description="Keller Druckmesstechnik AG, Winterthur" />
-    <x-info archive="false" label="Generalplaner" description="GP Generalplaner AG, Zürichh" />
+    <x-info archive="false" label="Generalplaner" description="GP Generalplaner AG, Zürich" />
     <x-info archive="false" label="Architekt" description="Strut Architekten AG, Winterthur" />
     <x-info archive="false" label="Bauleitung" description="MMT AG Bauleiter und Architekten, Zürich" />
     <x-info archive="false" label="Baukosten" description="65 Mio." />
