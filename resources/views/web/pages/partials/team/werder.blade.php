@@ -11,7 +11,6 @@
             </p>
             <p>
               T 079 700 82 52<br>
-              <a href="mailto:felix.werder@mmt-ag.ch">felix.werder@mmt-ag.ch</a>
             </p>
             <div class="btn-wrapper">
               <a href="javascript:;" class="btn-cv js-btn-cv" data-target="sager"></a>
