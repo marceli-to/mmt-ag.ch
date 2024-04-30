@@ -6,8 +6,8 @@
 @endsection
 @section('content')
 <x-slider>
-  <x-slider-image image="mmt_neubau_einfamilienhaus__zitat_1.jpg" classes="is-first is-portrait" />
   <x-slider-image image="mmt_neubau_efh_zuerich_1.jpg" caption="Fotografie:|Roger Frei, Zürich" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_neubau_einfamilienhaus__zitat_1.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_neubau_efh_zuerich_2.jpg" caption="Fotografie:|Roger Frei, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_neubau_efh_zuerich_3.jpg" caption="Fotografie:|Roger Frei, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_neubau_efh_zuerich_4.jpg" caption="Fotografie:|Roger Frei, Zürich" classes="is-portrait" />
