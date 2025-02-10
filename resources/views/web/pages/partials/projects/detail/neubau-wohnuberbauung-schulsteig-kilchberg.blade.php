@@ -6,13 +6,18 @@
 @endsection
 @section('content')
 <x-slider>
-  <x-slider-image image="mmt_schulsteig_kilchberg_1.jpg" caption="Visualisierung:|felberfendt Architekten GmbH, Zürich" classes="is-first is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_1.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-first is-landscape" />
   <x-slider-image image="mmt_schulsteig_kilchberg_2.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_schulsteig_kilchberg_3.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_schulsteig_kilchberg_4.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_schulsteig_kilchberg_5.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_schulsteig_kilchberg_6.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_schulsteig_kilchberg_7.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_8.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_9.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_10.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_11.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_12.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
 </x-slider>
 <x-project>
   <x-heading title="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2025)" />

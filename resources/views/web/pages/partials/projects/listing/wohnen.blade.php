@@ -11,7 +11,7 @@
 @section('content')  
 <x-preview 
 slug="neubau-wohnuberbauung-schulsteig-kilchberg" 
-image="mmt_schulsteig_kilchberg_1.jpg" 
+image="mmt_schulsteig_kilchberg_10.jpg" 
 text="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2025)" 
 alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2025)"
 />

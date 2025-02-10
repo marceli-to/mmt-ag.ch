@@ -12,7 +12,7 @@
 
   <x-preview 
     slug="umbau-schulhaus-talackerstrasse-winterthur" 
-    image="mmt_schulhaus_talackerstrasse_08.jpg" 
+    image="mmt_schulhaus_talackerstrasse_09.jpg" 
     text="Umbau Schulhaus Talackerstrasse<br>Winterthur (2023)" 
     alt="Umbau Schulhaus Talackerstrasse, Winterthur (2023)"
   />

@@ -21,8 +21,8 @@
     <x-info archive="false" label="Bauleitung" description="MMT AG Bauleiter und Architekten, Zürich" />
     <x-info archive="false" label="Baukosten" description="3.5 Mio." />
   </p>
-  {{-- <p>
-    <a href="/assets/downloads/mmt_salzhaus_bonstetten_referenzblatt.pdf" target="_blank" class="anchor-chevron">PDF</a>
-  </p> --}}
+  <p>
+    <a href="/assets/downloads/MMT0024_VI_Bahnhof_Schlieren_2025.pdf" target="_blank" class="anchor-chevron">PDF</a>
+  </p>
 </x-project>
 @endsection

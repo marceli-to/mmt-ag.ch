@@ -10,6 +10,7 @@
   <x-slider-image image="mmt_schulhaus_roemerstrasse_02.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
   <x-slider-image image="mmt_schulhaus_roemerstrasse_03.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
   <x-slider-image image="mmt_schulhaus_roemerstrasse_04.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
+  <x-slider-image image="mmt_schulhaus_roemerstrasse_04a.jpg" classes="is-portrait" />
   <x-slider-image image="mmt_schulhaus_roemerstrasse_05.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
   <x-slider-image image="mmt_schulhaus_roemerstrasse_06.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
   <x-slider-image image="mmt_schulhaus_roemerstrasse_07.jpg" caption="Fotografie:|Beat Bühler" classes="is-landscape" />
