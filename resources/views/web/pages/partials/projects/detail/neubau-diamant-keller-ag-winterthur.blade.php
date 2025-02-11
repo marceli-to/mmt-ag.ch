@@ -36,7 +36,7 @@
   </p>
   <div class="project-video__container is-hidden" data-video>
     <video controls poster="/storage/mmt_keller_diamant_zeitraffer.jpg">
-      <source src="/storage/mmt_keller_diamant_zeitraffer.mp4" type="video/mp4">
+      <source src="/storage/mmt_keller_diamant_zeitraffer_2025.mp4" type="video/mp4">
     </video>
   </div>
 </x-project>
