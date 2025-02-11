@@ -31,7 +31,7 @@
     <x-info archive="false" label="Baukosten" description="6.2 Mio." />
   </p>
   <p>
-    <a href="/assets/downloads/MMT0024_UBF_Schulhaus_Talackerstrasse_2025.pdf" target="_blank" class="anchor-chevron">PDF</a>
+    <a href="/assets/downloads/MMT0024_UBF_Schulhaus_Talackerstrasse_2025-v2.pdf" target="_blank" class="anchor-chevron">PDF</a>
   </p>
 </x-project>
 @endsection

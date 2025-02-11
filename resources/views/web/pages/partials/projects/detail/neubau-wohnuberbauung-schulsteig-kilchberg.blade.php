@@ -28,7 +28,7 @@
     <x-info archive="false" label="Baukosten" description="12 Mio." />
   </p>
   <p>
-    <a href="/assets/downloads/MMT0036_WO_Schulsteig_Kilchberg.pdf" target="_blank" class="anchor-chevron">PDF</a>
+    <a href="/assets/downloads/MMT0036_WO_Schulsteig_Kilchberg-2025.pdf" target="_blank" class="anchor-chevron">PDF</a>
   </p>
 </x-project>
 @endsection

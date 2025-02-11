@@ -33,7 +33,7 @@
     <x-info archive="false" label="Baukosten" description="2.5 Mio." />
   </p>
   <p>
-    <a href="/assets/downloads/MMT0024_WO_Bauamt_Dietikon.pdf" target="_blank" class="anchor-chevron">PDF</a>
+    <a href="/assets/downloads/MMT0024_WO_Bauamt_Dietikon_2025.pdf" target="_blank" class="anchor-chevron">PDF</a>
   </p>
 </x-project>
 @endsection
