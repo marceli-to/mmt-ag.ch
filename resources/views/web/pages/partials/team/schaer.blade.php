@@ -33,7 +33,7 @@
       </table>
       <h4>Berufsbegleitende Weiterbildungen</h4>
       <table class="cv">
-        <tr><td>2021&thinsp;–&thinsp;2025</td><td>Dipl. Techniker HF Bauplanung Architektur</td></tr>
+        <tr><td>2021&thinsp;–&thinsp;2025</td><td>Techniker HF Bauplanung Architektur an der IBZ, Zürich</td></tr>
         <tr><td>2021&thinsp;–&thinsp;2022</td><td>Know-How Bau Bauleitervorbereitungskurs, GB Wetzikon</td></tr>
       </table>
     </div>
