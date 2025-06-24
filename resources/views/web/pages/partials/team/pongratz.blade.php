@@ -10,7 +10,7 @@
               PR-Fachfrau<br>Leiterin Projektadministration
             </p>
             <p>
-              T 052 235 08 86<br>
+              T 052 235 08 80<br>
               <a href="mailto:alexandra.pongratz@mmt-ag.ch">alexandra.pongratz@mmt-ag.ch</a>
             </p>
             <div class="btn-wrapper">

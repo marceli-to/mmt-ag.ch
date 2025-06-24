@@ -8,7 +8,7 @@
             <h2>Michael Misteli</h2>
             <p>Bauleiter</p>
             <p>
-              T 052 235 08 86<br>
+              T 052 235 08 80<br>
               M 076 325 97 14<br>
               <a href="mailto:michael.misteli@mmt-ag.ch">michael.misteli@mmt-ag.ch</a>
             </p>

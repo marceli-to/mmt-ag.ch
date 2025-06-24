@@ -7,7 +7,7 @@
         <div class="text-media__body">
             <h2>Florian Sager</h2>
             <p>
-              Zeichner EFZ Architektur<br>Zimmermann EFZ<br>Bauleiter
+              Dipl. Techniker HF Bauplanung Architektur<br>Bauleiter
             </p>
             <p>
               T 052 235 08 80<br>
@@ -35,6 +35,10 @@
           <tr><td>2011&thinsp;–&thinsp;2012</td><td>Zimmermann bei André SA, Yens VD</td></tr>
           <tr><td>2008&thinsp;–&thinsp;2011</td><td>Lehre als Zimmermann bei schaerholzbau ag, Altbüron</td></tr>
           <tr><td>1991</td><td>geboren in Lenzburg</td></tr>
+        </table>
+        <h4>Berufsbegleitende Weiterbildungen</h4>
+        <table class="cv">
+          <tr><td>2021&thinsp;–&thinsp;2025</td><td>Techniker HF Bauplanung Architektur an der IBZ, Zürich</td></tr>
         </table>
       </div>
     </div>

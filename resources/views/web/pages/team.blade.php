@@ -14,13 +14,16 @@
 @include('web.pages.partials.team.baser')
 @include('web.pages.partials.team.buser')
 @include('web.pages.partials.team.deflorin')
-@include('web.pages.partials.team.huber')
+@include('web.pages.partials.team.gillhausen')
 @include('web.pages.partials.team.kuendig')
 @include('web.pages.partials.team.misteli')
 @include('web.pages.partials.team.sager')
-@include('web.pages.partials.team.steiger')
+@include('web.pages.partials.team.schaer')
 @include('web.pages.partials.team.vogler')
 @include('web.pages.partials.team.werder')
+
+{{-- @include('web.pages.partials.team.huber')
+@include('web.pages.partials.team.steiger') --}}
 
 {{-- <section class="content-team">
   <div>

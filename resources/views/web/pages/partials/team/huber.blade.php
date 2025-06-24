@@ -10,7 +10,7 @@
               Architekt
             </p>
             <p>
-              T 052 235 08 87<br>M 079 678 89 32<br>
+              T 052 235 08 80<br>M 079 678 89 32<br>
               <a href="mailto:christian.huber@mmt-ag.ch">christian.huber@mmt-ag.ch</a>
             </p>
             <div class="btn-wrapper">
