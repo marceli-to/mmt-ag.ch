@@ -7,7 +7,7 @@
       <div class="text-media__body">
         <h2>Carmen Gillhausen</h2>
         <p>
-          Technikerin HF Bauplanung Architektur<br>Projekt- & Bauleiterin
+          Dipl. Technikerin HF Bauplanung Architektur<br>Externe Projekt- & Bauleiterin
         </p>
         <p>
           T 052 235 08 80<br>
