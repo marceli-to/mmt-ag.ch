@@ -15,7 +15,6 @@
 @include('web.pages.partials.team.buser')
 @include('web.pages.partials.team.deflorin')
 @include('web.pages.partials.team.gillhausen')
-@include('web.pages.partials.team.kuendig')
 @include('web.pages.partials.team.misteli')
 @include('web.pages.partials.team.sager')
 @include('web.pages.partials.team.schaer')
