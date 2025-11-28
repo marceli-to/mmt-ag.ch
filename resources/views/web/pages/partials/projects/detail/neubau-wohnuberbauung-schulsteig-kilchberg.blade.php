@@ -18,6 +18,20 @@
   <x-slider-image image="mmt_schulsteig_kilchberg_10.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_schulsteig_kilchberg_11.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
   <x-slider-image image="mmt_schulsteig_kilchberg_12.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+
+  <x-slider-image image="mmt_schulsteig_kilchberg_13.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_14.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_15.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_16.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_17.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_18.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_19.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_20.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_21.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_22.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_23.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_schulsteig_kilchberg_24.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+
 </x-slider>
 <x-project>
   <x-heading title="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2025)" />
@@ -28,7 +42,7 @@
     <x-info archive="false" label="Baukosten" description="12 Mio." />
   </p>
   <p>
-    <a href="/assets/downloads/MMT0036_WO_Schulsteig_Kilchberg-2025.pdf" target="_blank" class="anchor-chevron">PDF</a>
+    <a href="/assets/downloads/MMT0036_WO_Schulsteig_Kilchberg_2025.pdf" target="_blank" class="anchor-chevron">PDF</a>
   </p>
 </x-project>
 @endsection

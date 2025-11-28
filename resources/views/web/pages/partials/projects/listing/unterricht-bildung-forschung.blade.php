@@ -11,6 +11,13 @@
 @section('content')
 
   <x-preview 
+    slug="schulanlage-punten-stallikon" 
+    image="mmt_schulanlage_puenten_stallikon.jpg" 
+    text="Schulanlage Pünten<br>Stallikon (2024–2028)" 
+    alt="Schulanlage Pünten, Stallikon (2024–2028)"
+  />
+
+  <x-preview 
     slug="umbau-schulhaus-talackerstrasse-winterthur" 
     image="mmt_schulhaus_talackerstrasse_09.jpg" 
     text="Umbau Schulhaus Talackerstrasse<br>Winterthur (2023)" 

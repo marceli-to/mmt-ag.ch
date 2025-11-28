@@ -9,6 +9,14 @@
   />
 @endsection
 @section('content')  
+
+  <x-preview 
+    slug="erneuerung-ensemble-restaurant-wart-huneberg" 
+    image="mmt_gewerbe_restaurant_wart_hueneberg_01.jpg" 
+    text="Erneuerung Ensemble Restaurant Wart<br>Hüneberg (2024–2028)" 
+    alt="Erneuerung Ensemble Restaurant Wart, Hüneberg (2024–2028)"
+  />
+
   <x-preview 
     slug="neubau-diamant-keller-ag-winterthur" 
     image="mmt_Keller_Diamant_1-2025_vorschau.jpg" 

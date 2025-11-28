@@ -8,13 +8,19 @@
     next="unterricht-bildung-forschung"
   />
 @endsection
-@section('content')  
-<x-preview 
-slug="neubau-wohnuberbauung-schulsteig-kilchberg" 
-image="mmt_schulsteig_kilchberg_10.jpg" 
-text="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2025)" 
-alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2025)"
-/>
+@section('content')
+  <x-preview 
+    slug="umbau-mfh-wohllebgasse" 
+    image="mmt_wohnen_wohllebgasse_01.jpg" 
+    text="Umbau MFH Wohllebgasse<br>(2025-2028)" 
+    alt="Umbau MFH Wohllebgasse (2025–2028)"
+  />
+  <x-preview 
+    slug="neubau-wohnuberbauung-schulsteig-kilchberg" 
+    image="mmt_schulsteig_kilchberg_10.jpg" 
+    text="Neubau Wohnüberbauung Schulsteig<br>Kilchberg (2021–2025)" 
+    alt="Neubau Wohnüberbauung Schulsteig, Kilchberg (2021–2025)"
+  />
   <x-preview 
     slug="sanierung-und-umbau-altes-bauamt-untere-reppischstrasse-dietikon" 
     image="mmt_bauamt_dietikon_01.jpg" 

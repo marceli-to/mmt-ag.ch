@@ -20,6 +20,11 @@
   <x-slider-image image="mmt_Keller_Diamant_12.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_Keller_Diamant_13.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
   <x-slider-image image="mmt_Keller_Diamant_14.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_Keller_Diamant_15.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_Keller_Diamant_16.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_Keller_Diamant_17.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-landscape" />
+  <x-slider-image image="mmt_Keller_Diamant_18.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
+  <x-slider-image image="mmt_Keller_Diamant_19.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
 </x-slider>
 <x-project>
   <x-heading title="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2025)" />
@@ -31,7 +36,7 @@
     <x-info archive="false" label="Baukosten" description="65 Mio." />
   </p>
   <p>
-    <a href="/assets/downloads/MMT0024_IG_Keller_Diamant_AG_2025.pdf" target="_blank" class="anchor-chevron">PDF</a><br>
+    <a href="/assets/downloads/MMT0024_IG_Keller_Diamant_AG_2025_v2.pdf" target="_blank" class="anchor-chevron">PDF</a><br>
     <a href="javascript:;" class="anchor-chevron" data-toggle-video>Zeitraffer-Video</a>
   </p>
   <div class="project-video__container is-hidden" data-video>
