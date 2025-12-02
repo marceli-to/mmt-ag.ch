@@ -27,7 +27,7 @@
   <x-slider-image image="mmt_Keller_Diamant_19.jpg" caption="Fotografie:|Jürg Zimmermann, Zürich" classes="is-portrait" />
 </x-slider>
 <x-project>
-  <x-heading title="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2025)" />
+  <x-heading title="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2026)" />
   <p>
     <x-info archive="false" label="Bauherrschaft" description="Keller Druckmesstechnik AG, Winterthur" />
     <x-info archive="false" label="Generalplaner" description="GP Generalplaner AG, Zürich" />

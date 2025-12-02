@@ -20,8 +20,8 @@
   <x-preview 
     slug="neubau-diamant-keller-ag-winterthur" 
     image="mmt_Keller_Diamant_1-2025_vorschau.jpg" 
-    text="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2025)" 
-    alt="Neubau Keller Druckmesstechnik AG, Winterthur (2021–2025)"
+    text="Neubau Keller Druckmesstechnik AG<br>Winterthur (2021–2026)" 
+    alt="Neubau Keller Druckmesstechnik AG, Winterthur (2021–2026)"
   />
 
   <x-preview 
