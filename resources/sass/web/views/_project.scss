@@ -81,21 +81,27 @@ article.project-detail {
   }
 
   .project-video__container {
-    padding-bottom: 66.67%;
+    aspect-ratio: 16 / 9;
     margin-bottom: $space-md;
-    position: relative;
+    margin-top: $space-md;
     width: 100%;
 
     &.is-hidden {
       display: none;
     }
 
+    &.is-16-9 {
+      aspect-ratio: 16 / 9;
+    }
+
+    &.is-16-10 {
+      aspect-ratio: 16 / 10;
+    }
+
     video {
       height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
       width: 100%;
+      object-fit: cover;
     }
   
   }

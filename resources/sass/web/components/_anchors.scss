@@ -13,6 +13,7 @@
 
 .anchor-chevron {
   @extend %anchor;
+  @include font-regular();
   display: inline-block;
   padding-left: $space-md;
   position: relative;

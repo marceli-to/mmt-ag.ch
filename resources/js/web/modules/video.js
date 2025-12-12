@@ -21,17 +21,19 @@ var Video = (function() {
   // Bind events
   var _bind = function() {
     $(selectors.body).on('click', selectors.btn, function(){
-      _toggle();
+      _toggle($(this));
     });
   };
 
-  var _toggle = function() {
-    $(selectors.wrap).toggleClass(classes.hidden);
+  var _toggle = function($btn) {
+    var videoKey = $btn.data('toggle-video');
+    var $videoWrap = $('[data-video="' + videoKey + '"]');
+    $videoWrap.toggleClass(classes.hidden);
 
     // if the video is shown, scroll into view
-    if (!$(selectors.wrap).hasClass(classes.hidden)) {
+    if (!$videoWrap.hasClass(classes.hidden)) {
       $('html, body').animate({
-        scrollTop: $(selectors.wrap).offset().top - 60
+        scrollTop: $videoWrap.offset().top - 60
       }, 500);
     }
 
