@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('page.home');
-Route::get('/home', [HomeController::class, 'index'])->name('page.home');
+Route::permanentRedirect('/home', '/');
 Route::get('/team', [AboutController::class, 'team'])->name('page.about_team');
 Route::get('/philosophie', [AboutController::class, 'philosophy'])->name('page.about_philosophy');
 Route::get('/kontakt', [ContactController::class, 'index'])->name('page.contact');

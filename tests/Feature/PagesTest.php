@@ -9,7 +9,7 @@ class PagesTest extends TestCase
 {
     public static function pages(): array
     {
-        $pages = ['/', '/home', '/team', '/philosophie', '/kontakt'];
+        $pages = ['/', '/team', '/philosophie', '/kontakt'];
 
         foreach (['listing' => '/projekte/', 'detail' => '/projekt/'] as $dir => $prefix) {
             foreach (glob(dirname(__DIR__, 2)."/resources/views/web/pages/partials/projects/{$dir}/*.blade.php") as $file) {
@@ -24,5 +24,10 @@ class PagesTest extends TestCase
     public function test_page_returns_ok(string $uri): void
     {
         $this->get($uri)->assertOk();
+    }
+
+    public function test_home_redirects_to_root(): void
+    {
+        $this->get('/home')->assertStatus(301)->assertRedirect('/');
     }
 }
