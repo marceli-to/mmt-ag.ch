@@ -1,7 +1,8 @@
 /**
  * Dependencies
  */
-import Swiper from '../vendor/swiper.js';
+import Swiper from 'swiper';
+import { Navigation } from 'swiper/modules';
 
 var SwiperUi = (function() {
 
@@ -11,6 +12,7 @@ var SwiperUi = (function() {
 
   var _bind = function() {
     var swiper = new Swiper('.swiper-container', {
+      modules: [Navigation],
       slidesPerView: 'auto',
       centeredSlides: true,
       direction: 'horizontal',

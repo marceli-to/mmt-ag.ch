@@ -1,11 +1,10 @@
 // Load dependencies
-require('./bootstrap');
+import './bootstrap';
 
 
 // Modules
-require('./modules/global.js');
-require('./modules/header.js');
-require('./modules/menu.js');
-require('./modules/swiper.js');
-require('./modules/video.js');
-
+import './modules/global.js';
+import './modules/header.js';
+import './modules/menu.js';
+import './modules/swiper.js';
+import './modules/video.js';

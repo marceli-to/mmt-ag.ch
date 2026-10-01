@@ -1,16 +1,9 @@
 <?php
 namespace App\Http\Controllers;
-use App\Http\Controllers\BaseController;
-use Illuminate\Http\Request;
 
-class ProjectController extends BaseController
+class ProjectController extends Controller
 {
   protected $viewPath = 'web.pages.';
-
-  public function __construct()
-  {
-    parent::__construct();
-  }
 
   public function listing($slug = NULL)
   { 

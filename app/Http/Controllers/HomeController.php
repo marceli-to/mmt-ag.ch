@@ -1,16 +1,9 @@
 <?php
 namespace App\Http\Controllers;
-use App\Http\Controllers\BaseController;
-use Illuminate\Http\Request;
 
-class HomeController extends BaseController
+class HomeController extends Controller
 {
   protected $viewPath = 'web.pages.';
-
-  public function __construct()
-  {
-    parent::__construct();
-  }
 
   public function index()
   { 
