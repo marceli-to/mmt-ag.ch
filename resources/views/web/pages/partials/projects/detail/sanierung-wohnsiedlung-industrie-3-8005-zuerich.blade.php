@@ -23,7 +23,7 @@
     <x-info archive="false" label="Baukosten" description="8 Mio." />
   </p>
   <p>
-    <a href="/assets/downloads/MMT_Wohnsiedlung_Industrie_3.pdf" target="_blank" class="anchor-chevron">PDF</a>
+    <a href="/assets/downloads/MMT0024_WO_Industrie_3_210112.pdf" target="_blank" class="anchor-chevron">PDF</a>
   </p>
 </x-project>
 @endsection
